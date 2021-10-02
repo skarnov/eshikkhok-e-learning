@@ -1,0 +1,48 @@
+.ui-dialog-titlebar{
+    background: none;
+    background-color: #2175AC;
+    color: #fff;
+    }
+.ui-dialog{
+    padding: 0 !important;
+    border: 0 none !important;
+    z-index: 9999 !important;
+    }
+.ui-dialog-content, .ui-dialog-buttonpane{
+    padding: 5px !important;
+    }
+.ui-dialog-buttonpane button{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    }
+.ui-dialog-buttonpane button:last-child{
+    margin-right: 0 !important;
+    }
+.ui-dialog-buttonpane button .ui-button-text{
+    padding:5px !important;
+    }
+.ui-dialog, .fancybox-opened{
+    z-index: 9999 !important;
+    }
+.ui-front{
+    z-index: 9999!important;
+    }
+.ui-autocomplete{
+    z-index: 999999 !important;
+    }
+.widget-article-comments .comment-footer, .widget-article-comments .comment-footer a{
+    color: #2196F3!important;
+}
+.table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 1px;
+}
+.btn.btn-labeled{
+    text-align: left;
+    }
+.btn.btn-labeled .btn-label{
+    display: inline-block;
+    float: none;
+    }
+.ui-dialog{border-radius: 0}
+.ui-dialog .ui-dialog-titlebar{border-radius: 0}
+.ui-dialog .ui-button{border-radius: 0}

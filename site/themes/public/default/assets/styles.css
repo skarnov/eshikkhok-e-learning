@@ -1,0 +1,163 @@
+.select2-autocomplete-container .select2-container {
+    padding: 0;
+    height: auto;
+    }
+.select2-autocomplete-container .select2-choices {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+.select2-autocomplete-container .select2-choices li{
+    float: left;
+    }
+.select2-container-multi .select2-choices .select2-search-choice {
+    border-radius: 2px;
+    background-color: #0d99c3;
+    color: #fff;
+    cursor: default;
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 3px;
+    padding: 4px;
+    padding-right: 20px;
+    position: relative;
+    text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+.select2-autocomplete-container .autocomplete_inputbox input,
+.select2-autocomplete-container .autocomplete_inputbox input:focus{
+    box-shadow: none;
+    outline: 0 none;
+    border: 0 none;
+    margin: 0;
+    }
+.select2-container .select2-choice .select2-search-choice-close {
+    border: 0;
+    color: #888;
+    cursor: pointer;
+    display: none;
+    font-size: 11px;
+    line-height: 30px;
+    height: 30px;
+    right: 18px;
+    width: 24px
+    }
+.select2-container .select2-choice .select2-search-choice-close:hover {
+    color: #aaa;
+    cursor: pointer
+    }
+.select2-container.select2-allowclear .select2-choice .select2-search-choice-close {
+    display: block
+    }
+.select2-search-choice-close {
+    display: block;
+    color: #fff;
+    font-family: FontAwesome;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    outline: 0;
+    position: absolute;
+    right: 3px;
+    text-align: center;
+    top: 5px;
+    width: 14px;
+    -webkit-transition: all .3s;
+    transition: all .3s
+    }
+.select2-search-choice-close:before {
+    content: "\f00d"
+    }
+.select2-search-choice-close:hover {
+    color: #fff;
+    color: rgba(255, 255, 255, .7);
+    text-decoration: none
+    }
+.select2-container-multi.select2-container-disabled .select2-choices .select2-search-choice .select2-search-choice-close {
+    background: 0 0;
+    display: none
+    }
+@-webkit-keyframes infinite_progressbar {
+    from {
+        left: -100%;
+        }
+    to {
+        left: 100%;
+        }
+    }
+@keyframes infinite_progressbar {
+    from {
+        left: -100%;
+        }
+    to {
+        left: 100%;
+        }
+    }
+.btn_overlay.progress, .btn_overlay .progress-bar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    z-index: 999999999999;
+    opacity: 1;
+    background: none;
+    margin: 0;
+    box-shadow: none;
+    }
+
+.btn_overlay.progress.active .progress-bar {
+    width: 100%;
+    position: absolute;
+    left: -100%;
+    -webkit-animation: infinite_progressbar;
+    animation: infinite_progressbar;
+    animation-duration: 0s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    }
+.progress.progress-striped .progress-bar.progress-bar-info {
+    background-color: #5bc0de;
+    background-image: -webkit-gradient(linear,0 100%,100% 0,color-stop(.25,rgba(255,255,255,.1)),color-stop(.25,transparent),color-stop(.5,transparent),color-stop(.5,rgba(255,255,255,.1)),color-stop(.75,rgba(255,255,255,.1)),color-stop(.75,transparent),to(transparent));
+    background-image: -webkit-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
+    background-image: -moz-linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
+    background-image: linear-gradient(45deg,rgba(255,255,255,.1) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.1) 50%,rgba(255,255,255,.1) 75%,transparent 75%,transparent);
+    background-size: 10px 10px;
+    }
+
+.ui-menu .ui-menu-item {
+    padding: 0 !important;
+    }
+.ui-menu .ui-menu-item a {
+    clear: both;
+    color: #555;
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    line-height: 1.428571429;
+    margin: 0 -2px;
+    min-height: 0;
+    padding: 5px 18px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: inherit;
+    }
+.ui-menu .ui-menu-item a:hover {
+    background: #5bc0de;
+    color: #fff;
+    }
+#pa-page-alerts-box p:last-child{margin-bottom: 0}

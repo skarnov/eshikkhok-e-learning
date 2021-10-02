@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Primary';
+    src: local('Helvetica Neue CE 55 Roman'), local('Helvetica-Neue-CE-55-Roman'), url('fonts/Helvetica Neue CE 55 Roman.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Secondary';
+    src: local('Helvetica LT 55 Roman'), local('Helvetica-LT-55-Roman'), url('fonts/Helvetica LT 55 Roman.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Tertiary';
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Tertiary';
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Tertiary';
+    src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Tertiary';
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Tertiary';
+    src: local('Roboto Thin Italic'), local('Roboto-ThinItalic'), url(https://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrEzAdLw.woff2) format('woff2');
+    font-weight: 100;
+    font-style: italic;
+}

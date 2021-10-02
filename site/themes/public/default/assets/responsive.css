@@ -1,0 +1,173 @@
+.mainNavMenu > li, .mainNavMenu > li ul,
+.topSmallNav > li, .topSmallNav > li ul,
+.languageMenu > li, .languageMenu > li ul{
+    display: none;
+    }
+.mainNavMenu > li:first-child,
+.topSmallNav > li:first-child,
+.languageMenu > li:first-child{
+    display: block;
+    }
+.mainNavMenu li ul,
+.topSmallNav li ul,
+.languageMenu li ul{
+    position: relative;
+    }
+.mainNavMenu li a:hover, .mainNavMenu li.active > a,
+.topSmallNav li a:hover, .topSmallNav li.active > a,
+.languageMenu li a:hover,.languageMenu li.active > a{
+    text-decoration: none;
+    }
+.languageMenu li:nth-child(2){
+    display: none;
+    }
+.languageMenu li a::after {
+    content: '';
+    padding: 0;
+    }
+.topSmallNav li a{
+    padding: 10px;
+    }
+.topSmallNav > li:first-child a,
+.mainNavMenu > li:first-child a{
+    padding-left: 0;
+    }
+.mainNavMenu{
+    max-height: 400px;
+    overflow-y: auto;
+    }
+.mainNavMenu li ul{
+    margin-left: 15px;
+    }
+.topSmallNav li a{padding-right: 0}
+@media (min-width: 576px) {
+    .fs_3{font-size: 1.5em}
+    .topBar{margin-bottom: 20px}
+    .homeLogoContainer{margin-bottom: 15px}
+    .homeLogoContainer img{height: 100%; width: 25%}
+    .homeTitle{margin: 0; margin-bottom: 20px}
+    .homePageBigBtnGroup{
+        font-size: 1em;
+        }
+    .homepage_container{
+        top: 3%;
+        bottom: 3%;
+        right: 6%;
+        left: 6%;
+        padding:1%;
+        }
+    }
+
+@media (min-width: 768px){
+    .fs_3{font-size: 1.75em}
+    .topBar{margin-bottom: 30px}
+    .homeLogoContainer{margin-bottom: 25px}
+    .homeLogoContainer img{height: 100%; width: 20%}
+    .homeTitle{margin: 0; margin-bottom: 30px}
+    .homePageBigBtnGroup{
+        font-size: 1.10em;
+        }
+    .homepage_container{
+        top: 4%;
+        bottom: 4%;
+        right: 8%;
+        left: 8%;
+        padding:1.30%;
+        }
+    .contactForInformationFormContainer input[type="text"], .contactForInformationFormContainer input[type="email"], .contactForInformationFormContainer textarea{
+        min-width: 380px;
+    }
+    .findBetterContainer{display: inline-block;}
+    .findBetterSelect2Container .input-group{width: auto;}
+    .searchDetailForm input[type="text"], .searchDetailForm select, .findBetterSelect2Container .select2{
+        margin-bottom: 0;
+        display: inline-block;
+        width: 250px !important;
+        }
+    .searchDetailForm input[type="submit"]{
+        margin-top: 0;
+        clear: none;
+    }
+    .topSmallNav > li ul{padding-left: 0}
+    .mainNavMenu > li > ul,
+    .topSmallNav > li > ul,
+    .languageMenu > li > ul{
+        position: absolute;
+    }
+    .mainNavMenu > li,
+    .topSmallNav > li,
+    .languageMenu > li{
+        display: inline-block;
+        }
+    .mainNavMenu > li ul, .topSmallNav > li ul, .languageMenu > li ul{
+        display: none;
+        }
+    .mainNavMenu > li:first-child,
+    .topSmallNav > li:first-child,
+    .languageMenu > li:first-child{
+        display: none;
+        }
+    .languageMenu li:nth-child(2){
+        display: inline-block;
+        }
+    .languageMenu li a::after {
+        content: ' | ';
+        padding-left: 10px;
+        color: #8e8e8e;
+        }
+    .topSmallNav li a, .topSmallNav > li:nth-child(2) a{
+        padding: 10px;
+        }
+    .mainNavMenu li a:hover, .mainNavMenu li.active > a {
+        text-decoration: none;
+        border-bottom-color: #5ca15f;
+        background: #fff;
+        color: #000;
+        }
+    .mainNavMenu{max-height: none;overflow-y: visible;}
+    .mainNavMenu > li ul {background-color: #ec008c;}
+    .mainNavMenu li ul {
+        margin-left: 0;
+        }
+    .topSmallNav li a{padding: 10px;}
+    .topSmallNav > li:nth-child(2) a{padding-left: 0}
+    .topSmallNav > li:last-child a{padding-right: 0}
+    }
+
+@media (min-width: 992px){
+    .slideTextContainer{
+        padding-top: 10.75%;
+    }
+    .fs_3{font-size: 2.25em}
+    .topBar{margin-bottom: 40px}
+    .homeLogoContainer{margin-bottom: 35px}
+    .homeLogoContainer img{height: 121.58%; width: 15%}
+    .homeTitle{margin: 0; margin-bottom: 40px}
+    .homePageBigBtnGroup{
+        font-size: 1.25em;
+        }
+    .homepage_container{
+        top: 5%;
+        bottom: 5%;
+        right: 10%;
+        left: 10%;
+        padding:1.83%;
+        }
+    .searchDetailForm input[type="text"], .searchDetailForm select, .findBetterSelect2Container .select2{
+        margin-bottom: 0;
+        display: inline-block;
+        width: 298px !important;
+    }
+    .contactForInformationAd{
+        display: inline-block;
+        max-width: 500px;
+        }
+    .mainNavMenu, .mainNavMenu > ul {
+        margin-left: -15px;
+        margin-right: -15px;
+        }
+}
+
+@media (min-width: 1200px) {
+
+    }

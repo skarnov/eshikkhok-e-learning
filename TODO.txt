@@ -1,0 +1,13 @@
+1. When creating page slugs. check for matching reserved words including home,login,logout etc., slugs of content types
+
+2. Cache the menu items -DONE
+
+3. Cache the logged in user
+
+4. Cache the user_role_permission
+
+5. Cache the menu assignments -DONE
+
+6. Cache the jack settings
+
+7. Create a menu renderer way that will accept template function for actual rendering, no need to query in the template function
